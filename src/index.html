@@ -4,20 +4,27 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Latihan Tailwind CSS</title>
-   <!-- <link rel="stylesheet" href="./output.css"> -->
+   <link rel="stylesheet" href="././output.css">
 </head>
-<body class="...">
-   <section id="title" class="...">
-      <h1 class="...">Todo List Application</h1>
+
+<body class="bg-gray-100 h-screen justify-center items-center bg-orange-600">
+   <section id="title" class=" bg-yellow-400 ">
+      
+      <h1 class="text-3xl font-bold mb-4 text-center  ">Todo List Application </h1>
+
    </section>
-   <section id="input" class="...">
+  
+   <section id="input" class="flex mb-4">
       <input type="text" name="assignment" id="assignment" 
-             class="..."
-             placeholder="Inputkan tugas yang akan dikerjakan ...">
+             class=" type= "text" name="assignment" id="assignment"
+             class="border rounded-lg p-2 flex-1 outline-none focus:ring focus:ring-indigo-300" 
+             placeholder= "Inputkan tugas yang akan dikerjakan ...">
+            
+            
       <input type="button" id="btn-tambah" value="TAMBAH"
-             class="...">
+      class="ml-2 bg-indigo-500 text-white px-4 py-2 rounded-lg hover:bg-indigo-600 cursor-pointer">
    </section>
-   <section id="output" class=""></section>
+   <section id="output" class="space-y-2"></section>
    <script src="main.js"></script>
 </body>
 </html>
